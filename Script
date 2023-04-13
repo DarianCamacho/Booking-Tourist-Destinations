@@ -1,0 +1,10 @@
+Create Database BookingCR
+USE BookingCR
+
+CREATE TABLE Destino (
+    Id INT PRIMARY KEY IDENTITY,
+    Nombre VARCHAR(50) NOT NULL,
+    Descripcion VARCHAR(250) NOT NULL,
+    Precio DECIMAL(18,2) NOT NULL,
+    Foto VARCHAR(250) NOT NULL
+);
